@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="MySQL," />
 
 
 
@@ -84,12 +84,19 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Homer'Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="ascii(str)返回str的最左边字符对应的ASCII编码（功能和char()函数相反）str：待转换字符串12select ASCII(&apos;0temp&apos;) from dual&amp;gt; 48
+bin(n)返回n的二进制表示形式n：待转换数值12345678select ASCII(&apos;temp&apos;) from dual&amp;gt; 0select bin(3) from dual&amp;gt; 11sele">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MySQL函数大全">
+<meta property="og:url" content="http://yoursite.com/2016/12/05/MySql函数大全/index.html">
 <meta property="og:site_name" content="Homer'Blog">
+<meta property="og:description" content="ascii(str)返回str的最左边字符对应的ASCII编码（功能和char()函数相反）str：待转换字符串12select ASCII(&apos;0temp&apos;) from dual&amp;gt; 48
+bin(n)返回n的二进制表示形式n：待转换数值12345678select ASCII(&apos;temp&apos;) from dual&amp;gt; 0select bin(3) from dual&amp;gt; 11sele">
+<meta property="og:updated_time" content="2016-12-13T03:27:01.046Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Homer'Blog">
+<meta name="twitter:title" content="MySQL函数大全">
+<meta name="twitter:description" content="ascii(str)返回str的最左边字符对应的ASCII编码（功能和char()函数相反）str：待转换字符串12select ASCII(&apos;0temp&apos;) from dual&amp;gt; 48
+bin(n)返回n的二进制表示形式n：待转换数值12345678select ASCII(&apos;temp&apos;) from dual&amp;gt; 0select bin(3) from dual&amp;gt; 11sele">
 
 
 
@@ -117,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/12/05/MySql函数大全/"/>
 
 
 
 
 
-  <title> Homer'Blog </title>
+  <title> MySQL函数大全 | Homer'Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="">
@@ -144,9 +151,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -225,268 +230,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/12/22/hello-world/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Homer">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Homer'Blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Homer'Blog" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/12/22/hello-world/" itemprop="url">
-                  Hello World
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Veröffentlicht am</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-22T16:33:29+08:00">
-                2016-12-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/2016/12/22/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/22/hello-world/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/12/05/MySql数据类型/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Homer">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Homer'Blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Homer'Blog" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/12/05/MySql数据类型/" itemprop="url">
-                  MySQL数据类型
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Veröffentlicht am</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-05T17:12:04+08:00">
-                2016-12-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/2016/12/05/MySql数据类型/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/05/MySql数据类型/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <!--## -->
-<h3 id="float"><a href="#float" class="headerlink" title="float"></a>float</h3><p>超出范围设置成范围内最大值<br>未超出范围 则按小数位数四舍五入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">float</span>(2,1)</div><div class="line">update teacher <span class="built_in">set</span> amt = 10.8 <span class="built_in">where</span> id = <span class="string">'28'</span>;</div><div class="line">&gt; 9.9</div></pre></td></tr></table></figure></p>
-<h3 id="double"><a href="#double" class="headerlink" title="double"></a>double</h3><p>超出范围设置成范围内最大值<br>未超出范围 则按小数位数四舍五入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">float</span>(3,2)</div><div class="line">update teacher <span class="built_in">set</span> amt = 1.888 <span class="built_in">where</span> id = <span class="string">'28'</span>;</div><div class="line">&gt; 1.89</div></pre></td></tr></table></figure></p>
-<h3 id="decimal"><a href="#decimal" class="headerlink" title="decimal"></a>decimal</h3><p>超出范围设置成范围内最大值<br>未超出范围 则按小数位数四舍五入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">float</span>(3,2)</div><div class="line">update teacher <span class="built_in">set</span> amt = 1.888 <span class="built_in">where</span> id = <span class="string">'28'</span>;</div><div class="line">&gt; 1.89</div></pre></td></tr></table></figure></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
 
   
 
@@ -519,10 +265,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/12/05/MySql函数大全/" itemprop="url">
-                  MySQL函数大全
-                </a>
+                MySQL函数大全
               
             
           </h1>
@@ -578,9 +321,7 @@
       
 
       
-        
-          
-            <!--## -->
+        <!--## -->
 <h3 id="ascii-str"><a href="#ascii-str" class="headerlink" title="ascii(str)"></a>ascii(str)</h3><p>返回str的最左边字符对应的ASCII编码（功能和char()函数相反）<br>str：待转换字符串<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">select ASCII(<span class="string">'0temp'</span>) from dual</div><div class="line">&gt; 48</div></pre></td></tr></table></figure></p>
 <h3 id="bin-n"><a href="#bin-n" class="headerlink" title="bin(n)"></a>bin(n)</h3><p>返回n的二进制表示形式<br>n：待转换数值<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">select ASCII(<span class="string">'temp'</span>) from dual</div><div class="line">&gt; 0</div><div class="line"></div><div class="line">select bin(3) from dual</div><div class="line">&gt; 11</div><div class="line"></div><div class="line">select bin(NULL) from dual</div><div class="line">&gt; NULL</div></pre></td></tr></table></figure></p>
 <h3 id="char-length-str"><a href="#char-length-str" class="headerlink" title="char_length(str)"></a>char_length(str)</h3><p>返回str的字符长度，（length()为字节长度）<br>str：待转换字符串<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">select char_length(<span class="string">'你好'</span>) from dual</div><div class="line">&gt; 2</div><div class="line"></div><div class="line">select char_length(<span class="string">'nihao'</span>) from dual</div><div class="line">&gt; 5</div><div class="line"></div><div class="line">select char_length(<span class="string">'你好world'</span>) from dual</div><div class="line">&gt; 7</div></pre></td></tr></table></figure></p>
@@ -599,285 +340,85 @@
 <h3 id="time-to-sec-time"><a href="#time-to-sec-time" class="headerlink" title="time_to_sec(time)"></a>time_to_sec(time)</h3><p>将时间转换为秒数<br>time：待转换时间<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">select time_to_sec(<span class="string">'01:00:00'</span>) from dual;</div><div class="line">&gt; 3600</div></pre></td></tr></table></figure></p>
 <h3 id="sec-to-time-seconds"><a href="#sec-to-time-seconds" class="headerlink" title="sec_to_time(seconds)"></a>sec_to_time(seconds)</h3><p>将秒数转换为时间<br>seconds：待转换秒数<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">select sec_to_time(3600) from dual;</div><div class="line">&gt; 01:00:00</div></pre></td></tr></table></figure></p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/12/05/JVM系统属性/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Homer">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Homer'Blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Homer'Blog" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/12/05/JVM系统属性/" itemprop="url">
-                  JVM系统属性
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Veröffentlicht am</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-05T17:12:04+08:00">
-                2016-12-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/MySQL/" rel="tag"># MySQL</a>
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/2016/12/05/JVM系统属性/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/05/JVM系统属性/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <!--## -->
-<h3 id="JVM系统属性"><a href="#JVM系统属性" class="headerlink" title="JVM系统属性"></a>JVM系统属性</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">java.version Java            ：运行时环境版本</div><div class="line">java.vendor Java             ：运行时环境供应商  </div><div class="line">java.vendor.url              ：Java供应商的 URL  </div><div class="line">java.home                    ：Java安装目录  </div><div class="line">java.vm.specification.version： Java虚拟机规范版本  </div><div class="line">java.vm.specification.vendor ：Java虚拟机规范供应商  </div><div class="line">java.vm.specification.name   ：Java虚拟机规范名称  </div><div class="line">java.vm.version         ：Java虚拟机实现版本  </div><div class="line">java.vm.vendor          ：Java虚拟机实现供应商  </div><div class="line">java.vm.name            ：Java虚拟机实现名称  </div><div class="line">java.specification.version   ：Java运行时环境规范版本  </div><div class="line">java.specification.vendor    ：Java运行时环境规范供应商  </div><div class="line">java.specification.name      ：Java运行时环境规范名称  </div><div class="line">java.class.version      ：Java类格式版本号  </div><div class="line">java.class.path         ：Java类路径  </div><div class="line">java.library.path       ：加载库时搜索的路径列表  </div><div class="line">java.io.tmpdir          ：默认的临时文件路径  </div><div class="line">java.compiler           ：要使用的 JIT编译器的名称  </div><div class="line">java.ext.dirs           ：一个或多个扩展目录的路径  </div><div class="line">os.name                 ：操作系统的名称  </div><div class="line">os.arch                 ：操作系统的架构  </div><div class="line">os.version              ：操作系统的版本  </div><div class="line">file.separator      ：文件分隔符  </div><div class="line">path.separator      ：路径分隔符  </div><div class="line">line.separator      ：行分隔符  </div><div class="line">user.name           ：用户的账户名称  </div><div class="line">user.home           ：用户的主目录  </div><div class="line">user.dir            ：用户的当前工作目录</div></pre></td></tr></table></figure>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/12/05/Velocity-中加载Vm的三种方式/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Homer">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.png">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="Homer'Blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="Homer'Blog" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/12/05/JVM系统属性/" rel="next" title="JVM系统属性">
+                <i class="fa fa-chevron-left"></i> JVM系统属性
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/12/05/Velocity-中加载Vm的三种方式/" itemprop="url">
-                  Velocity 中加载Vm的三种方式
-                </a>
-              
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+              <a href="/2016/12/05/MySql数据类型/" rel="prev" title="MySQL数据类型">
+                MySQL数据类型 <i class="fa fa-chevron-right"></i>
+              </a>
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Veröffentlicht am</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-05T17:12:04+08:00">
-                2016-12-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/2016/12/05/Velocity-中加载Vm的三种方式/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/05/Velocity-中加载Vm的三种方式/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2016/12/05/MySql函数大全/"
+     data-title="MySQL函数大全"
+     data-content=""
+     data-url="http://yoursite.com/2016/12/05/MySql函数大全/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
 
 
           </div>
@@ -885,6 +426,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/12/05/MySql函数大全/"
+           data-title="MySQL函数大全" data-url="http://yoursite.com/2016/12/05/MySql函数大全/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -904,8 +453,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -951,6 +509,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#ascii-str"><span class="nav-number">1.</span> <span class="nav-text">ascii(str)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#bin-n"><span class="nav-number">2.</span> <span class="nav-text">bin(n)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#char-length-str"><span class="nav-number">3.</span> <span class="nav-text">char_length(str)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#compress-str"><span class="nav-number">4.</span> <span class="nav-text">compress(str)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#concat-str1…str2"><span class="nav-number">5.</span> <span class="nav-text">concat(str1…str2)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#concat-ws-separator-str1…str2"><span class="nav-number">6.</span> <span class="nav-text">concat_ws(separator ,str1…str2)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#substring-str-start-length-substr-str-start-length"><span class="nav-number">7.</span> <span class="nav-text">substring(str, start, length), substr(str, start, length)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#floor-n"><span class="nav-number">8.</span> <span class="nav-text">floor(n)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ceil-n-ceiling-n"><span class="nav-number">9.</span> <span class="nav-text">ceil(n), ceiling(n)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#round-n-num"><span class="nav-number">10.</span> <span class="nav-text">round(n,num),</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#current-timestamp-now-sysdate"><span class="nav-number">11.</span> <span class="nav-text">current_timestamp(), now(), sysdate()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#curdate-current-date"><span class="nav-number">12.</span> <span class="nav-text">curdate(), current_date()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#curtime-current-time"><span class="nav-number">13.</span> <span class="nav-text">curtime(), current_time()</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#unix-timestamp-date"><span class="nav-number">14.</span> <span class="nav-text">unix_timestamp(date)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#from-unixtime-date"><span class="nav-number">15.</span> <span class="nav-text">from_unixtime(date)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#time-to-sec-time"><span class="nav-number">16.</span> <span class="nav-text">time_to_sec(time)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sec-to-time-seconds"><span class="nav-number">17.</span> <span class="nav-text">sec_to_time(seconds)</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
     </div>
@@ -1038,6 +612,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
